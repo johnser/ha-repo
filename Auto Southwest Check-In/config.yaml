@@ -3,7 +3,7 @@ name: "Auto Southwest Check-In"
 version: "1.0.0"
 slug: "auto_southwest_check_in"
 description: "Automatically check in to Southwest flights using jdholtz/auto-southwest-check-in."
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+url: "https://github.com/johnser/ha-repo/"
 arch:
   - amd64
   - armv7
