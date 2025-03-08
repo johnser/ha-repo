@@ -1,5 +1,5 @@
 name: "Auto Southwest Check-In"
-version: "1.0.0"
+version: "1.1.0"
 slug: "auto_southwest_check_in"
 description: "Automatically check in to Southwest flights using jdholtz/auto-southwest-check-in."
 arch:
@@ -9,6 +9,9 @@ arch:
   - aarch64
 startup: "application"
 boot: "manual"
+
+# IMPORTANT: We do NOT specify an "image" here, so the Supervisor will build locally.
+# image: "local/auto_southwest_check_in"
 
 options:
   SOUTHWEST_USERNAME: ""
