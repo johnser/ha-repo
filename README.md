@@ -2,7 +2,7 @@
 
 This is a custom add-on repository for [Home Assistant](https://www.home-assistant.io/), containing a single add-on that wraps the [jdholtz/auto-southwest-check-in](https://hub.docker.com/r/jdholtz/auto-southwest-check-in) Docker container. It allows you to automatically check in for your Southwest flights and optionally send notifications via Pushover.
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2johnser%2Fha-repo)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.][(https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2johnser%2Fha-repo)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fjohnser%2Fha-repo)
 
 ---
 
