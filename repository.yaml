@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: John's Add-on Repository Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
+url: 'https://github.com/johnser/ha-repo/tree/main'
 maintainer: John
