@@ -9,7 +9,6 @@ arch:
   - aarch64
 startup: "application"
 boot: "manual"
-image: "local/auto_southwest_check_in"
 
 options:
   SOUTHWEST_USERNAME: ""
