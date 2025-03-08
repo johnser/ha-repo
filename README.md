@@ -1,4 +1,4 @@
-# Auto Southwest Check-In Add-on Repository
+# John's Add-on Repository
 
 This is a custom add-on repository for [Home Assistant](https://www.home-assistant.io/), containing a single add-on that wraps the [jdholtz/auto-southwest-check-in](https://hub.docker.com/r/jdholtz/auto-southwest-check-in) Docker container. It allows you to automatically check in for your Southwest flights and optionally send notifications via Pushover.
 
