@@ -1,4 +1,4 @@
-name: "Auto Southwest Check-In Add-on Repository"
+name: "Auto Southwest Check-In Repository"
 url: "https://github.com/johnser/ha-repo"
 maintainer: "johnser"
 description: "Home Assistant Add-on Repository for automatically checking in to Southwest flights"

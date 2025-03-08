@@ -1,18 +1,16 @@
-# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: "Auto Southwest Check-In"
 version: "1.0.0"
 slug: "auto_southwest_check_in"
 description: "Automatically check in to Southwest flights using jdholtz/auto-southwest-check-in."
-url: "https://github.com/johnser/ha-repo/"
 arch:
   - amd64
   - armv7
   - armhf
   - aarch64
-init: false
-map:
-  - share:rw
-  
+startup: "application"
+boot: "manual"
+image: "local/auto_southwest_check_in"
+
 options:
   SOUTHWEST_USERNAME: ""
   SOUTHWEST_PASSWORD: ""
@@ -28,8 +26,3 @@ schema:
   PUSHOVER_USER_KEY: "str"
   PUSHOVER_APP_KEY: "str"
   TIMEZONE: "str"
-
-# This is the local Docker image name that Home Assistant will build
-image: "local/auto_southwest_check_in"
-
-
