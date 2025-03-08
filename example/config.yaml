@@ -1,20 +1,35 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
-version: "1.2.0"
-slug: example
-description: Example add-on
+name: "Auto Southwest Check-In"
+version: "1.0.0"
+slug: "auto_southwest_check_in"
+description: "Automatically check in to Southwest flights using jdholtz/auto-southwest-check-in."
 url: "https://github.com/home-assistant/addons-example/tree/main/example"
 arch:
-  - armhf
-  - armv7
-  - aarch64
   - amd64
-  - i386
+  - armv7
+  - armhf
+  - aarch64
 init: false
 map:
   - share:rw
+  
 options:
-  message: "Hello world..."
+  SOUTHWEST_USERNAME: ""
+  SOUTHWEST_PASSWORD: ""
+  CONFIRMATION_NUMBER: ""
+  PUSHOVER_USER_KEY: ""
+  PUSHOVER_APP_KEY: ""
+  TIMEZONE: "UTC"
+
 schema:
-  message: "str?"
-image: "ghcr.io/home-assistant/{arch}-addon-example"
+  SOUTHWEST_USERNAME: "str"
+  SOUTHWEST_PASSWORD: "str"
+  CONFIRMATION_NUMBER: "str"
+  PUSHOVER_USER_KEY: "str"
+  PUSHOVER_APP_KEY: "str"
+  TIMEZONE: "str"
+
+# This is the local Docker image name that Home Assistant will build
+image: "local/auto_southwest_check_in"
+
+
