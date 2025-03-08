@@ -8,7 +8,7 @@ PUSHOVER_USER_KEY=$(bashio::config 'PUSHOVER_USER_KEY')
 PUSHOVER_APP_KEY=$(bashio::config 'PUSHOVER_APP_KEY')
 TIMEZONE=$(bashio::config 'TIMEZONE')
 
-# Export them for the main script
+# Export them for the script
 export SOUTHWEST_USERNAME
 export SOUTHWEST_PASSWORD
 export CONFIRMATION_NUMBER
@@ -16,5 +16,5 @@ export PUSHOVER_USER_KEY
 export PUSHOVER_APP_KEY
 export TIMEZONE
 
-# Run the Southwest check-in Python script (adjust path/filename if needed)
+# Run the Python script from the official container
 python /app/auto_southwest_check_in.py

@@ -1,4 +1,10 @@
-# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: John's Add-on Repository Home Assistant add-on repository
-url: 'https://github.com/johnser/ha-repo'
-maintainer: John
+name: "Auto Southwest Check-In Add-on Repository"
+url: "https://github.com/johnser/ha-repo"
+maintainer: "johnser"
+description: "Home Assistant Add-on Repository for automatically checking in to Southwest flights"
+homeassistant: "2023.2.0"
+arch:
+  - amd64
+  - armv7
+  - armhf
+  - aarch64
